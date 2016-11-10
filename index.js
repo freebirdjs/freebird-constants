@@ -1,9 +1,3 @@
-# freebird-constants
-Constants used by freebird framework
-
-The used constants are:
-
-```js
 module.exports = {
     EVENTS_TO_TOP: {
         ERROR: 'error',
@@ -86,4 +80,3 @@ module.exports = {
     OptionalDevDrvNames: [ 'identify' ],
     OptionalGadDrvNames: [ 'exec', 'setReportCfg', 'getReportCfg' ]
 };
-```

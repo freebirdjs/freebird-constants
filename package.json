@@ -1,0 +1,22 @@
+{
+  "name": "freebird-constants",
+  "version": "0.0.1",
+  "description": "Constants used by freebird framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freebirdjs/freebird-constants.git"
+  },
+  "keywords": [
+    "freebird"
+  ],
+  "author": "Simen Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freebirdjs/freebird-constants/issues"
+  },
+  "homepage": "https://github.com/freebirdjs/freebird-constants#readme"
+}
