@@ -78,5 +78,56 @@ module.exports = {
     MandatoryGadDrvNames: [ 'read', 'write' ],
     OptionalNetDrvNames: [ 'ban', 'unban' ],
     OptionalDevDrvNames: [ 'identify' ],
-    OptionalGadDrvNames: [ 'exec', 'setReportCfg', 'getReportCfg' ]
+    OptionalGadDrvNames: [ 'exec', 'setReportCfg', 'getReportCfg' ],
+    RPC: {
+        interface: {
+            REQ: 0,
+            RSP: 1,
+            IND: 2
+        },
+        subsys: {
+            net: 0,
+            dev: 1,
+            gad: 2
+        },
+        api: {
+            net: {
+                getAllDevIds: 0,
+                getAllGadIds: 1,
+                getDevs: 2,
+                getGads: 3,
+                getNetcores: 4,
+                getBlacklist: 5,
+                permitJoin: 6,
+                maintain: 7,
+                reset: 8,
+                enable: 9,
+                disable: 10,
+                ban: 11,
+                unban: 12,
+                remove: 13,
+                ping: 14
+            },
+            dev: {
+                enable: 32,
+                disable: 33,
+                read: 34,
+                write: 35,
+                identify: 36,
+                getProps: 37,
+                setProps: 38
+            },
+            gad: {
+                enable: 64,
+                disable: 65,
+                read: 66,
+                write: 67,
+                exec: 68,
+                setReportCfg: 69,
+                getReportCfg: 70,
+                getProps: 71,
+                setProps: 72
+            }
+        }
+    }
 };
