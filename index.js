@@ -129,6 +129,39 @@ module.exports = {
                 setProps: 72
             }
         },
+        Ind: {
+            net: {
+                error: 128,
+                started: 129,
+                stopped: 130,
+                enabled: 131,
+                disabled: 132,
+                permitJoining: 133,
+                bannedDevIncoming: 134,
+                bannedGadIncoming: 135,
+                bannedDevReporting: 136,
+                bannedGadReporting: 137
+            },
+            dev: {
+                error: 160,
+                devIncoming: 161,
+                devLeaving: 162,
+                netChanged: 163,
+                statusChanged: 164,
+                propsChanged: 165,
+                attrsChanged: 166,
+                attrsReport: 167
+            },
+            gad: {
+                error: 192,
+                gadIncoming: 193,
+                gadLeaving: 194,
+                panelChanged: 195,
+                propsChanged: 196,
+                attrsChanged: 197,
+                attrsReport: 198
+            }
+        },
         Status: {
             Ok: 200,
             Created: 201,
