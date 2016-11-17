@@ -80,17 +80,17 @@ module.exports = {
     OptionalDevDrvNames: [ 'identify' ],
     OptionalGadDrvNames: [ 'exec', 'setReportCfg', 'getReportCfg' ],
     RPC: {
-        interface: {
+        Interface: {
             REQ: 0,
             RSP: 1,
             IND: 2
         },
-        subsys: {
+        Subsys: {
             net: 0,
             dev: 1,
             gad: 2
         },
-        api: {
+        Api: {
             net: {
                 getAllDevIds: 0,
                 getAllGadIds: 1,
@@ -128,6 +128,20 @@ module.exports = {
                 getProps: 71,
                 setProps: 72
             }
+        },
+        Status: {
+            Ok: 200,
+            Created: 201,
+            Deleted: 202,
+            Changed: 204,
+            Content: 205,
+            BadRequest: 400,
+            Unauthorized: 401,
+            NotFound: 404,
+            MethodNotAllowed: 405,
+            Timeout: 408,
+            Conflict: 409,
+            InternalServerError: 500
         }
     }
 };
