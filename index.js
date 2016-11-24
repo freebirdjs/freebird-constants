@@ -115,7 +115,9 @@ module.exports = {
                 write: 35,
                 identify: 36,
                 getProps: 37,
-                setProps: 38
+                setProps: 38,
+                ping: 39,
+                remove: 40
             },
             gad: {
                 enable: 64,
