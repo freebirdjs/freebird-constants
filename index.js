@@ -5,13 +5,13 @@ module.exports = {
         // STOPPED: 'stopped',
         // NET_READY: 'netReady',
         // PERMIT_JOIN: 'permitJoin',
-        NC_ENABLED: 'ncEnabled',
-        NC_DISABLED: 'ncDisabled',
-        NC_STARTED: 'ncStarted',
-        NC_STOPPED: 'ncStopped',
+        NC_ENABLED: 'ncEnabled',    // v
+        NC_DISABLED: 'ncDisabled',  // v
+        NC_STARTED: 'ncStarted',    // v
+        NC_STOPPED: 'ncStopped',    // v
         NC_NET_READY: 'ncNetReady',
-        NC_PERMIT_JOIN: 'ncPermitJoin',
-        DEV_INCOMING: 'devIncoming',
+        NC_PERMIT_JOIN: 'ncPermitJoin', // v
+        DEV_INCOMING: 'devIncoming',    // v
         DEV_LEAVING: 'devLeaving',
         DEV_REPORTING: 'devReporting',
         DEV_NET_CHANGED: 'devNetChanged',
@@ -59,8 +59,8 @@ module.exports = {
         NcGadRead: '_nc:gadRead',
         NcGadWrite: '_nc:gadWrite',
         NcGadExec: '_nc:gadExec',
-        NcGadSetReportCfg: '_nc:gadSetReportCfg',
-        NcGadGetReportCfg:'_nc:gadGetReportCfg',
+        NcGadWriteReportCfg: '_nc:gadWriteReportCfg',
+        NcGadReadReportCfg:'_nc:gadReadReportCfg',
         _NcReady: '_nc:_ready',
         //-----------To Freebird ----------------------
         DevError: '_dev:error',
@@ -82,7 +82,7 @@ module.exports = {
     MandatoryGadDrvNames: [ 'read', 'write' ],
     OptionalNetDrvNames: [ 'ban', 'unban' ],
     OptionalDevDrvNames: [ 'identify' ],
-    OptionalGadDrvNames: [ 'exec', 'setReportCfg', 'getReportCfg' ],
+    OptionalGadDrvNames: [ 'exec', 'writeReportCfg', 'readReportCfg' ],
     RPC: {
         Interface: {
             REQ: 0,
@@ -129,8 +129,8 @@ module.exports = {
                 read: 66,
                 write: 67,
                 exec: 68,
-                setReportCfg: 69,
-                getReportCfg: 70,
+                readReportCfg: 69,
+                writeReportCfg: 70,
                 getProps: 71,
                 setProps: 72
             }
