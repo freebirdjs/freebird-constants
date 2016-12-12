@@ -52,23 +52,32 @@ module.exports = {
         //---------------------------------------------
         NcNetBan: '_nc:netBan',
         NcNetUnban: '_nc:netUnban',
-        NcNetPing: '_nc:netPing',
-        NcDevRead: '_nc:devRead',
-        NcDevWrite: '_nc:devWrite',
-        NcDevIdentify: '_nc:devIdentify',
-        NcGadRead: '_nc:gadRead',
-        NcGadWrite: '_nc:gadWrite',
-        NcGadExec: '_nc:gadExec',
-        NcGadWriteReportCfg: '_nc:gadWriteReportCfg',
-        NcGadReadReportCfg:'_nc:gadReadReportCfg',
+        NcNetPing: '_nc:netPing',           // [TODO] delete
+        NcDevRead: '_nc:devRead',           // [TODO] delete
+        NcDevWrite: '_nc:devWrite',         // [TODO] delete
+        NcDevIdentify: '_nc:devIdentify',   // [TODO] delete
+        NcGadRead: '_nc:gadRead',           // [TODO] delete
+        NcGadWrite: '_nc:gadWrite',         // [TODO] delete
+        NcGadExec: '_nc:gadExec',           // [TODO] delete
+        NcGadReadReportCfg:'_nc:gadReadReportCfg',      // [TODO] delete
+        NcGadWriteReportCfg: '_nc:gadWriteReportCfg',   // [TODO] delete
         _NcReady: '_nc:_ready',
         //-----------To Freebird ----------------------
         DevError: '_dev:error',
         DevNetChanged: '_dev:netChanged',
         DevPropsChanged: '_dev:propsChanged',
         DevAttrsChanged: '_dev:attrsChanged',
+        // DevPing: '_dev:ping',
+        DevRead: '_dev:read',
+        DevWrite: '_dev:write',
+        DevIdentify: '_dev:identify',
         //---------------------------------------------
         GadError: '_gad:error',
+        GadRead: '_gad:read',
+        GadWrite: '_gad:write',
+        GadExec: '_gad:exec',
+        GadReadReportCfg:'_gad:readReportCfg',
+        GadWriteReportCfg: '_gad:writeReportCfg',
         //-----------To Freebird ----------------------
         GadPanelChanged: '_gad:panelChanged',
         GadPropsChanged: '_gad:propsChanged',
