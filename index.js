@@ -52,15 +52,7 @@ module.exports = {
         //---------------------------------------------
         NcNetBan: '_nc:netBan',
         NcNetUnban: '_nc:netUnban',
-        NcNetPing: '_nc:netPing',           // [TODO] delete
-        NcDevRead: '_nc:devRead',           // [TODO] delete
-        NcDevWrite: '_nc:devWrite',         // [TODO] delete
-        NcDevIdentify: '_nc:devIdentify',   // [TODO] delete
-        NcGadRead: '_nc:gadRead',           // [TODO] delete
-        NcGadWrite: '_nc:gadWrite',         // [TODO] delete
-        NcGadExec: '_nc:gadExec',           // [TODO] delete
-        NcGadReadReportCfg:'_nc:gadReadReportCfg',      // [TODO] delete
-        NcGadWriteReportCfg: '_nc:gadWriteReportCfg',   // [TODO] delete
+        NcNetPing: '_nc:netPing',
         _NcReady: '_nc:_ready',
         //-----------To Freebird ----------------------
         DevError: '_dev:error',
