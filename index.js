@@ -5,13 +5,13 @@ module.exports = {
         // STOPPED: 'stopped',
         // NET_READY: 'netReady',
         // PERMIT_JOIN: 'permitJoin',
-        NC_ENABLED: 'ncEnabled',    // v
-        NC_DISABLED: 'ncDisabled',  // v
-        NC_STARTED: 'ncStarted',    // v
-        NC_STOPPED: 'ncStopped',    // v
+        NC_ENABLED: 'ncEnabled',
+        NC_DISABLED: 'ncDisabled',
+        NC_STARTED: 'ncStarted',
+        NC_STOPPED: 'ncStopped',
         NC_NET_READY: 'ncNetReady',
-        NC_PERMIT_JOIN: 'ncPermitJoin', // v
-        DEV_INCOMING: 'devIncoming',    // v
+        NC_PERMIT_JOIN: 'ncPermitJoin',
+        DEV_INCOMING: 'devIncoming',
         DEV_LEAVING: 'devLeaving',
         DEV_REPORTING: 'devReporting',
         DEV_NET_CHANGED: 'devNetChanged',
@@ -53,7 +53,6 @@ module.exports = {
         NcNetBan: '_nc:netBan',
         NcNetUnban: '_nc:netUnban',
         NcNetPing: '_nc:netPing',
-        _NcReady: '_nc:_ready',
         //-----------To Freebird ----------------------
         DevError: '_dev:error',
         DevNetChanged: '_dev:netChanged',
