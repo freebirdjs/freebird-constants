@@ -43,7 +43,7 @@ module.exports = {
         NcDevNetChanging: '_nc:devNetChanging',
         NcDevReporting: '_nc:devReporting',
         NcGadIncoming: '_nc:gadIncoming',
-        NcGadLeaving: '_nc:gadLeaving',
+        NcGadLeaving: '_nc:gadLeaving',         // no use currently
         NcGadReporting: '_nc:gadReporting',
         NcBannedDevIncoming: '_nc:bannedDevIncoming',
         NcBannedDevReporting: '_nc:bannedDevReporting',
@@ -155,8 +155,7 @@ module.exports = {
                 netChanged: 163,
                 statusChanged: 164,
                 propsChanged: 165,
-                attrsChanged: 166,
-                attrsReport: 167
+                attrsChanged: 166
             },
             gad: {
                 error: 192,
