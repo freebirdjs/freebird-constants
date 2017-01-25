@@ -1,6 +1,7 @@
 module.exports = {
     EVENTS_TO_TOP: {
         ERROR: 'error',
+        READY: 'ready',
         // STARTED: 'started',
         // STOPPED: 'stopped',
         // NET_READY: 'netReady',
