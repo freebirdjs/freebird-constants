@@ -61,8 +61,8 @@ module.exports = {
         NcGadRead: '_nc:gadRead',
         NcGadWrite: '_nc:gadWrite',
         NcGadExec: '_nc:gadExec',
-        NcGadSetReportCfg: '_nc:gadSetReportCfg',
-        NcGadGetReportCfg:'_nc:gadGetReportCfg',
+        NcGadWriteReportCfg: '_nc:gadWriteReportCfg',
+        NcGadReadReportCfg:'_nc:gadReadReportCfg',
         _NcReady: '_nc:_ready',
         //-----------To Freebird ----------------------
         DevError: '_dev:error',
@@ -84,7 +84,7 @@ module.exports = {
     MandatoryGadDrvNames: [ 'read', 'write' ],
     OptionalNetDrvNames: [ 'ban', 'unban' ],
     OptionalDevDrvNames: [ 'identify' ],
-    OptionalGadDrvNames: [ 'exec', 'setReportCfg', 'getReportCfg' ],
+    OptionalGadDrvNames: [ 'exec', 'readReportCfg', 'writeReportCfg' ],
     RPC: {
         Interface: {
             REQ: 0,
